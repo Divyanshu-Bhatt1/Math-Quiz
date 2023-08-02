@@ -1,0 +1,287 @@
+*{
+    padding:0;
+    box-sizing: border-box;
+    font-family:  Arial, sans-serif;
+    
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(240, 235, 248);
+    /* background: rgba(0, 0, 0, 0.5); */
+    margin:0;
+     
+}
+
+.color-container{
+      margin-top: 20px;
+      height: 10px;
+      width:600px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      background-color: blueviolet;
+}
+
+.container-1{
+         
+         background-color: white;  
+         height:300px;
+         width:600px;
+         border-bottom-left-radius: 20px;
+         border-bottom-right-radius: 20px;
+         padding:0 20px;
+}
+
+.star{
+    color:red;
+    margin-left: 2px;
+}
+
+.detail{
+       background-color: white; 
+       height:150px;
+       width:600px;
+       border-radius: 20px;
+       margin:15px 0 0 0;
+       padding:30px;
+}
+
+
+.question{
+         background-color: white;
+         border-radius: 20px;
+         width:600px;
+         height:300px;
+         margin:15px 0 0 0;
+         padding:30px;
+}
+
+.q{
+    margin:30px 0 0 8px;  
+    display:inline-block; 
+    font-size: 14.666px;
+}
+
+.btn{
+   height:20px;
+   width:20px;
+   margin:30px 0 0 0;
+   position:relative;
+   top:4px;
+   
+}
+
+input[type="radio"] {
+    accent-color:  rgb(103, 58, 183);
+}
+   
+.sub-btn{
+          cursor: pointer;
+          margin:20px ;
+          height:40px;
+          width:95px;
+          position:relative;
+          right:250px;
+          border:none;
+          border-radius: 8px;
+          background-color:rgb(103, 58, 183); 
+          text-align: center;
+          color: white;
+          font-size: 15px;
+          
+          /* outline: none; */
+}
+
+.sub-btn:hover{
+   background-color:  rgb(160, 108, 240);
+   
+}
+
+.clr-btn{
+    cursor: pointer;
+    margin:20px ;
+    height:40px;
+    width:95px;
+    border:none;
+    border-radius: 8px;
+    color:rgb(103, 58, 183); 
+    position:relative;
+    font-size: 15px;
+    bottom: 80px;
+    left: 250px;
+    text-align: center;
+}
+
+.clr-btn:hover{
+    background-color: rgb(227, 223, 235);
+}
+
+.p-l{
+    font-size: 12px;
+    color:#70757a;
+    position:relative;
+    bottom: 30px;
+    right: 170px;
+}
+
+.g,.f
+{
+   font-size:25px;
+   position:relative;
+}
+
+.g{
+    font-weight: bold;
+    right: 85px;
+}
+
+.f{
+    color:#70757a;
+    bottom: 27px;
+    left:30px;
+}
+
+
+#roll,#name,#age{
+    padding:  10px 3px 0px;; 
+    font-size: 16px;
+    margin: 15px 0;
+    outline:none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width:300px;
+    height:40px;
+    
+}
+
+.inc{
+    
+    display:inline;
+    color:red;
+    font-size: 12px;
+    position:relative;
+    bottom: 5px;
+    left: 7px;
+    visibility: hidden;
+}
+
+.warning{
+    
+    height:20px;
+    width:20px;
+    visibility: hidden;
+}
+
+.br-dup{
+    display: block;
+    margin-bottom: -0.4em;
+}
+
+.warn{
+  
+    display:inline;
+    color:red;
+    font-size: 12px;
+    position:relative;
+    top: 15px;
+    left: 7px;
+    visibility: hidden;
+}
+
+.warn-img{
+    position:relative;
+    top: 19px;
+
+}
+
+.back-color-container{
+    height:200px;
+    width:100vw;
+    background-color:rgb(103, 58, 183);
+    display: none;
+}
+
+
+
+
+.clr-container{
+    padding: 10px 20px;
+    width:384px;
+    height:164px;
+    background-color: white;
+    border-radius: 10px;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+     visibility: hidden;
+}
+
+.clr-compo{
+    position:relative;
+    width: 87px;
+    height: 38px;
+    left:168px;
+    background-color: white;
+    color:rgb(103, 58, 183);
+    border:none;
+    border-radius: 8px;
+    font-weight: 555;
+    
+}
+
+.clr-compo:hover{
+    cursor:pointer;
+    background-color:rgb(227, 223, 235) ;
+
+}
+
+.mk-blur{
+   
+}
+
+.marks-container{
+    background-color: white;  
+    height:300px;
+    width:600px;
+    padding: 20px 45px;
+    border-radius: 8px;
+    position:relative;
+    bottom: 150px;
+    display:none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.marks{
+    font-size: 25px;
+    color:rgb(103, 58, 183);
+}
+
+.p-marks{
+    font-size:17px;
+}
+
+.user{
+    color:rgb(103, 58, 183);
+}
+.tnx{
+    margin: 30px 0;
+    font-size: 18px;
+    color:#70757a;
+}
+
+.let{
+    color:rgb(103, 58, 183);
+    margin-top: 40px;
+}
+
+.thumb{
+    height: 60px;
+    left: 160px;
+    bottom: 70px;
+    mix-blend-mode: darken;
+    position:relative;
+}
